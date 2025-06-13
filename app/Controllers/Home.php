@@ -9,8 +9,13 @@ class Home extends BaseController
         return view('auth/login');
     }
 
-    public function register(): string //SESUAI PLAYLIST
-    { //SESUAI PLAYLIST
-        return view('auth/register'); //SESUAI PLAYLIST
-    } //SESUAI PLAYLIST
+    public function register(): string //SESUAI PLAYLIST HANYA UNTUK TESTING
+    { //SESUAI PLAYLIST HANYA UNTUK TESTING
+        return view('auth/register'); //SESUAI PLAYLIST HANYA UNTUK TESTING
+    } //SESUAI PLAYLIST HANYA UNTUK TESTING
+
+    public function user(): string //SESUAI PLAYLIST HANYA UNTUK TESTING
+    { //SESUAI PLAYLIST HANYA UNTUK TESTING
+        return view('user/index'); //SESUAI PLAYLIST HANYA UNTUK TESTING
+    } //SESUAI PLAYLIST HANYA UNTUK TESTING
 }
